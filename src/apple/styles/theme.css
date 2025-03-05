@@ -1,0 +1,34 @@
+:root{
+  /* Color */
+  --white: #F5F5F7;
+  --black: #1D1D1F;
+  --red: #D11719;
+  --gray: #86868B;
+  --blue-100: #2997ff;
+  --blue-200: #0077ED;
+  --blue-300: #0071e3;
+  --blue-400: #006EDB;
+
+  /* Box Size */
+  --size: 31.25rem; /* 500px - 카드 높이 고정 값 */
+
+  /* Text Size */
+  --xx-small-text: 0.75rem; /* 12px - Small Screen 버튼(링크) 글자 크기 */
+  --x-small-text: 0.875rem; /* 14px - Large Screen 버튼(링크) 글자 크기 */ 
+  --small-text: 1.0625rem; /* 17px - 출시일 추후 공개 글자 크기 (공통) */
+  --base-text: 1.1875rem; /* 19px - Small Screen 부제목 글자 크기 */
+  --medium-text: 1.3125rem; /* 21px - Large Screen 부제목 글자 크기 */
+  --large-text: 2rem; /* 32px - Small Screen 제목 글자 크기 */
+  --extra-large-text: 2.5rem; /* 40px - Large Screen 제목 글자 크기 */
+
+  /* Spacing */
+  --x-small-spacing: 0.5rem; /* 8px - 버튼(링크) 상,하단 안쪽 여백, 부제목 하단 여백 */
+  --small-spacing: 0.75rem; /* 12px - 카드 제목, 부제목, 버튼(링크)간 여백(gap), 버튼(링크) 좌,우 안쪽 여백 */
+  --base-spacing: 1rem; /* 16px - 2개의 버튼(링크) 사이 여백 (공통) */
+  --large-spacing: 2.5rem; /* 40px - Small Screen 상단 여백 */
+  --extra-large-spacing: 3.75rem; /* 60px - Large Screen 상단 여백 */
+  
+  --line-normal: 1.5; /* 부제목 줄간격 */
+}
+
+

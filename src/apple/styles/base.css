@@ -1,0 +1,27 @@
+:root{
+  --base-font-family: "SUIT Variable", sans-serif; 
+}
+
+body *, body *::before, body *::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--base-font-family);
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* 숨김 콘텐츠 */
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0,0,0,0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  border-width: 0;
+}
